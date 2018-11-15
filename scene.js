@@ -81,20 +81,20 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "../../../../../private/var/folders/2c/2qvfylfn2yqgcr87n4_drd9r0000gn/T/0.666450066851155.WebWorker.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "../../../../../private/var/folders/2c/2qvfylfn2yqgcr87n4_drd9r0000gn/T/0.5487695539998654.WebWorker.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "../../../../../private/var/folders/2c/2qvfylfn2yqgcr87n4_drd9r0000gn/T/0.666450066851155.WebWorker.js":
-/*!***********************************************************************************************!*\
-  !*** /private/var/folders/2c/2qvfylfn2yqgcr87n4_drd9r0000gn/T/0.666450066851155.WebWorker.js ***!
-  \***********************************************************************************************/
+/***/ "../../../../../private/var/folders/2c/2qvfylfn2yqgcr87n4_drd9r0000gn/T/0.5487695539998654.WebWorker.js":
+/*!************************************************************************************************!*\
+  !*** /private/var/folders/2c/2qvfylfn2yqgcr87n4_drd9r0000gn/T/0.5487695539998654.WebWorker.js ***!
+  \************************************************************************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Users_michaltakac_Projects_paralelnapolis_dcl_pp_node_modules_decentraland_rpc_lib_common_transports_WebWorker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/decentraland-rpc/lib/common/transports/WebWorker */ \"./node_modules/decentraland-rpc/lib/common/transports/WebWorker.js\");\n\n\nconst imported = __webpack_require__(/*! ./scene.tsx */ \"./scene.tsx\")\n\nif (imported && imported.__esModule && imported['default']) {\n  new imported['default'](Object(_Users_michaltakac_Projects_paralelnapolis_dcl_pp_node_modules_decentraland_rpc_lib_common_transports_WebWorker__WEBPACK_IMPORTED_MODULE_0__[\"WebWorkerTransport\"])(self))\n}\n\n\n//# sourceURL=webpack:////private/var/folders/2c/2qvfylfn2yqgcr87n4_drd9r0000gn/T/0.666450066851155.WebWorker.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Users_michaltakac_Projects_paralelnapolis_dcl_pp_node_modules_decentraland_rpc_lib_common_transports_WebWorker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/decentraland-rpc/lib/common/transports/WebWorker */ \"./node_modules/decentraland-rpc/lib/common/transports/WebWorker.js\");\n\n\nconst imported = __webpack_require__(/*! ./scene.tsx */ \"./scene.tsx\")\n\nif (imported && imported.__esModule && imported['default']) {\n  new imported['default'](Object(_Users_michaltakac_Projects_paralelnapolis_dcl_pp_node_modules_decentraland_rpc_lib_common_transports_WebWorker__WEBPACK_IMPORTED_MODULE_0__[\"WebWorkerTransport\"])(self))\n}\n\n\n//# sourceURL=webpack:////private/var/folders/2c/2qvfylfn2yqgcr87n4_drd9r0000gn/T/0.5487695539998654.WebWorker.js?");
 
 /***/ }),
 
@@ -781,7 +781,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return SampleScene; });\n/* harmony import */ var decentraland_api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! decentraland-api */ \"./node_modules/decentraland-api/lib/index.js\");\n/* harmony import */ var decentraland_api__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(decentraland_api__WEBPACK_IMPORTED_MODULE_0__);\n\nclass SampleScene extends decentraland_api__WEBPACK_IMPORTED_MODULE_0__[\"ScriptableScene\"] {\n    async render() {\n        return (decentraland_api__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"scene\", null,\n            decentraland_api__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"gltf-model\", { position: { x: 0, y: 0.5, z: 0 }, src: \"./models/parallel_polis.glb\" })));\n    }\n}\n\n\n//# sourceURL=webpack:///./scene.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return SampleScene; });\n/* harmony import */ var decentraland_api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! decentraland-api */ \"./node_modules/decentraland-api/lib/index.js\");\n/* harmony import */ var decentraland_api__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(decentraland_api__WEBPACK_IMPORTED_MODULE_0__);\n\nclass SampleScene extends decentraland_api__WEBPACK_IMPORTED_MODULE_0__[\"ScriptableScene\"] {\n    async render() {\n        return (decentraland_api__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"scene\", null,\n            decentraland_api__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"box\", { position: { x: 5, y: 0.5, z: 5 }, rotation: { x: 0, y: 45, z: 0 }, color: \"#4CC3D9\" }),\n            decentraland_api__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"sphere\", { position: { x: 6, y: 1.25, z: 4 }, color: \"#EF2D5E\" }),\n            decentraland_api__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"cylinder\", { position: { x: 7, y: 0.75, z: 3 }, radius: 0.5, scale: { x: 0, y: 1.5, z: 0 }, color: \"#FFC65D\" }),\n            decentraland_api__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"plane\", { position: { x: 5, y: 0, z: 6 }, rotation: { x: -90, y: 0, z: 0 }, scale: 4, color: \"#7BC8A4\" })));\n    }\n}\n\n\n//# sourceURL=webpack:///./scene.tsx?");
 
 /***/ })
 

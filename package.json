@@ -1,16 +1,16 @@
 {
-  "name": "dcl-project",
-  "version": "1.0.0",
-  "description": "My new Decentraland project",
-  "scripts": {
-    "start": "dcl start",
-    "build": "decentraland-compiler build.json",
-    "watch": "decentraland-compiler build.json --watch"
-  },
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "decentraland-api": "latest",
-    "decentraland": "latest"
-  }
+	"name": "dcl-pp",
+	"version": "1.0.0",
+	"description": "Parallel Polis in Decentraland.",
+	"scripts": {
+		"start": "dcl start",
+		"build": "decentraland-compiler build.json",
+		"watch": "decentraland-compiler build.json --watch"
+	},
+	"author": "Michal Takáč <takacmichal92@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"decentraland-api": "latest",
+		"decentraland": "latest"
+	}
 }
