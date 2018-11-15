@@ -1,0 +1,28 @@
+{
+	"display": {
+		"title": "dcl_pp"
+	},
+	"contact": {
+		"name": "Parallel Polis",
+		"email": ""
+	},
+	"owner": "0x18cc7eD604F1E455eF79a1C277493a7b1f2e6794",
+	"scene": {
+		"parcels": [
+			"42,77"
+		],
+		"base": "42,77",
+		"estateId": null
+	},
+	"communications": {
+		"type": "webrtc",
+		"signalling": "https://rendezvous.decentraland.org"
+	},
+	"policy": {
+		"fly": true,
+		"voiceEnabled": true,
+		"blacklist": [],
+		"teleportPosition": "0,0,0"
+	},
+	"main": "scene.js"
+}
